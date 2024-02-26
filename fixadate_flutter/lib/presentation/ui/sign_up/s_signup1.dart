@@ -363,7 +363,7 @@ class _FirstSignUpScreenState extends State<FirstSignUpScreen> {
                       SignUpController.to.gender = _gender;
                       SignUpController.to.birth = _birth;
                       SignUpController.to.check();
-                      Get.toNamed("/signUp2");
+                      Get.toNamed("/signup2");
                     }
                   },
                 ),

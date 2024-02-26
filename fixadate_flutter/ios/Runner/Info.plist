@@ -60,5 +60,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>Fixadate wants to access Gallery</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Fixadate wants to access Camera</string>
 </dict>
 </plist>
