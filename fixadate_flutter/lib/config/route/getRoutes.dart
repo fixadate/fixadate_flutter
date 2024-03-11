@@ -1,4 +1,4 @@
-import 'package:fixadate_flutter/presentation/ui/sign_up/ThirdSignUpScreen.dart';
+import 'package:fixadate_flutter/presentation/ui/sign_up/s_signup3.dart';
 import 'package:fixadate_flutter/presentation/ui/sign_up/s_signup1.dart';
 import 'package:fixadate_flutter/presentation/ui/sign_up/s_signup2.dart';
 import 'package:get/get.dart';

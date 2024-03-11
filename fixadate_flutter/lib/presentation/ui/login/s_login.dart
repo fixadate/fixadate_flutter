@@ -45,7 +45,9 @@ class LoginScreen extends StatelessWidget {
               LoginButton(
                 PlatformName: 'Sign in with Kakao',
                 backGroundColor: Color.fromRGBO(255, 255, 0, 1.0),
-                onPressed: () {},
+                onPressed: () {
+                  LoginController.to.requestKakaoLogin();
+                },
                 // getPage: () => Get.toNamed("/signUp1" ,arguments: ["oauthId","kakao"]),
               ),
               const SizedBox(height: 20),
@@ -61,8 +63,9 @@ class LoginScreen extends StatelessWidget {
               LoginButton(
                 PlatformName: 'Sign in with Apple',
                 backGroundColor: Color.fromRGBO(255, 255, 255, 1.0),
-                onPressed: () {},
-                //getPage: () => Get.toNamed("/signUp1" ,arguments: ["oauthId","oauthPlatform"]),
+                onPressed: () {
+                  Get.toNamed("/signup3" ,arguments: ["oauthId","oauthPlatform"]);
+                },
               ),
             ],
           ),
